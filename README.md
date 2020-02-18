@@ -1,8 +1,8 @@
 # qbittrclone 🚀
 
-Este contenedor contiene el cliente qBittorrent y la herramienta Rclone, con la finalidad de automatizar la subida de nuestras descargas a los principales cloud como gdrive etc.
+Este contenedor de docker contiene el cliente qBittorrent y la herramienta Rclone, con la finalidad de automatizar la subida de nuestras descargas a los principales servidores cloud como gdrive etc.
 
-La forma correcta para lanzar este docker es la siguiente:
+La forma más recomendades para lanzar este contenedor es la siguiente:
 
 ```
 docker run \
