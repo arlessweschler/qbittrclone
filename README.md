@@ -22,7 +22,7 @@ docker run \
   -p 6881:6881/udp \
   -p 8080:8080 \
   -v /tupath/config:/config \
-  -v /tupath/downloads:/config/downloads \
+  -v /tupath/downloads:/downloads \
   --restart unless-stopped \
 -it qbittrclone /bin/bash
 ```
