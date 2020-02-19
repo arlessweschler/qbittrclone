@@ -17,10 +17,10 @@ docker run \
   -e PGID=1000 \
   -e TZ=Europe/London \
   -e UMASK_SET=022 \
-  -e WEBUI_PORT=8080 \
+  -e WEBUI_PORT=8085 \
   -p 6881:6881 \
   -p 6881:6881/udp \
-  -p 8080:8080 \
+  -p 8085:8085 \
   -v /tupath/config:/config \
   -v /tupath/downloads:/downloads \
   --restart unless-stopped \
