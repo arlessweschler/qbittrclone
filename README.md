@@ -26,4 +26,5 @@ docker run \
 ```
 ## +info 📖
 La versión que contiene del cliente qBittorrent es la v4.2.1
+
 Es necesario que las carpetas a las cuáles apuntan los volúmenes tengan permisos de escritura y lectura de lo contrario rclone no podrá leer y escribir su fichero de configuración.
