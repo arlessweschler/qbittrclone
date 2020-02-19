@@ -1,5 +1,7 @@
 # qbittrclone 🚀
 
+[![Docker Pulls](https://img.shields.io/docker/pulls/rclone/rclone)](https://hub.docker.com/r/guzmi/qbittrclone)
+
 Este contenedor de docker contiene el cliente qBittorrent y la herramienta Rclone, con la finalidad de automatizar la subida de nuestras descargas a los principales servidores cloud como gdrive etc.
 
 ### Pre-requisitos 📋
