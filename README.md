@@ -24,7 +24,7 @@ docker run \
   -v /tupath/config:/config \
   -v /tupath/downloads:/downloads \
   --restart unless-stopped \
--it qbittrclone /bin/bash
+-it guzmi/qbittrclone /bin/bash
 ```
 ## +info 📖
 La versión que contiene del cliente qBittorrent es la v4.2.1
